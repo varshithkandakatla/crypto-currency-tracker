@@ -17,7 +17,7 @@ const Coin = () => {
         method: 'GET',
         headers: {
           accept: 'application/json',
-          'x-cg-demo-api-key': 'CG-KHpo1nzPCpLofmYu4Vv91QGA'
+          'x-cg-demo-api-key': import.meta.env.VITE_COINGECKO_API_KEY
         }
       });
       const data = await res.json();
@@ -33,7 +33,7 @@ const Coin = () => {
       const url = `https://api.coingecko.com/api/v3/coins/${coinId}/market_chart?vs_currency=${currency.name}&days=10&interval=daily`;
       const res = await fetch(url, {
         method: 'GET',
-        headers: { 'x-cg-demo-api-key': 'CG-KHpo1nzPCpLofmYu4Vv91QGA' }
+        headers: { 'x-cg-demo-api-key': import.meta.env.VITE_COINGECKO_API_KEY }
       });
       const data = await res.json();
       setHistoricalData(data);
