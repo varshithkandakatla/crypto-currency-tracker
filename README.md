@@ -1,12 +1,35 @@
-# React + Vite
+# 🪙 CryptoPlace – Crypto Currency Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoPlace is a modern, fast, and responsive cryptocurrency tracker. Built with **React** and **Vite**, it leverages the **CoinGecko API** to display real-time prices, historical charts, and detailed coin metrics—all in a sleek, user-friendly UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+-  **Live Coin Data**: Fetches real-time cryptocurrency prices and market ranking.
+-  **Multi-Currency Support**: Toggle between currencies like USD, INR, EUR, etc.
+-  **Interactive Charts**: Clean, responsive line charts display price history.
+-  **Coin Details**: Shows market cap, 24-hour high/low, rank, and more.
+-  **Mobile-First Design**: Optimized for both desktop and mobile experiences.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **Framework**: React with functional components and hooks  
+- **Bundler**: Vite for blazing-fast development and end builds  
+- **Context Management**: React Context API for global currency settings  
+- **Charting**: Recharts (or your chosen chart library) for dynamic data visualization  
+- **API**: CoinGecko for price data and historical charts  
+- **Styling**: CSS modules (or Tailwind CSS—whichever you're using)  
+
+---
+
+##  Live Demo
+
+_If you deploy your application (e.g., GitHub Pages, Netlify, Vercel), include a link here._
+
+**Live Demo:** *[coming soon]*
+
+---
+
