@@ -4,17 +4,17 @@ CryptoPlace is a modern, fast, and responsive cryptocurrency tracker. Built with
 
 ---
 
-##  Features
+## Features
 
--  **Live Coin Data**: Fetches real-time cryptocurrency prices and market ranking.
--  **Multi-Currency Support**: Toggle between currencies like USD, INR, EUR, etc.
--  **Interactive Charts**: Clean, responsive line charts display price history.
--  **Coin Details**: Shows market cap, 24-hour high/low, rank, and more.
--  **Mobile-First Design**: Optimized for both desktop and mobile experiences.
+- **Live Coin Data**: Fetches real-time cryptocurrency prices and market ranking.  
+- **Multi-Currency Support**: Toggle between currencies like USD, INR, EUR, etc.  
+- **Interactive Charts**: Clean, responsive line charts display price history.  
+- **Coin Details**: Shows market cap, 24-hour high/low, rank, and more.  
+- **Mobile-First Design**: Optimized for both desktop and mobile experiences.  
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 - **Framework**: React with functional components and hooks  
 - **Bundler**: Vite for blazing-fast development and end builds  
@@ -25,11 +25,4 @@ CryptoPlace is a modern, fast, and responsive cryptocurrency tracker. Built with
 
 ---
 
-##  Live Demo
-
-_If you deploy your application (e.g., GitHub Pages, Netlify, Vercel), include a link here._
-
-**Live Demo:** *[coming soon]*
-
----
-
+**Live Demo:** [https://crypto-currency-tracker-inky.vercel.app](https://crypto-currency-tracker-inky.vercel.app)
