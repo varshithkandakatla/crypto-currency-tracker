@@ -19,9 +19,9 @@ CryptoPlace is a modern, fast, and responsive cryptocurrency tracker. Built with
 - **Framework**: React with functional components and hooks  
 - **Bundler**: Vite for blazing-fast development and end builds  
 - **Context Management**: React Context API for global currency settings  
-- **Charting**: Recharts (or your chosen chart library) for dynamic data visualization  
+- **Charting**: React Google Charts for dynamic data visualization  
 - **API**: CoinGecko for price data and historical charts  
-- **Styling**: CSS modules (or Tailwind CSS—whichever you're using)  
+- **Styling**: CSS 
 
 ---
 
